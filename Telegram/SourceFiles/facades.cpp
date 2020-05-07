@@ -342,7 +342,7 @@ struct Data {
 	int32 RevokePrivateTimeLimit = 172800;
 	bool RevokePrivateInbox = false;
 	int32 StickersRecentLimit = 30;
-	int32 StickersFavedLimit = 5;
+	int32 StickersFavedLimit = 25;
 	int32 PinnedDialogsCountMax = 5;
 	int32 PinnedDialogsInFolderMax = 100;
 	QString InternalLinksDomain = qsl("https://t.me/");
